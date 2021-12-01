@@ -7,10 +7,10 @@
       continue;
     }
 
+    //if entry is not a number, ignore it. 
     if (!Number.isInteger(Number(process.argv[i]))) {
       continue;
     }
- 
 
     setTimeout(() => {
       process.stdout.write('\x07');
